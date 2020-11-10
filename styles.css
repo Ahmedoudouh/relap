@@ -38,6 +38,10 @@ body {
     padding: 12px 47px 12px 47px;
 }
 
+.cta-headre:hover {
+    box-shadow: 1px 1px 1px 2px #FDF2FF;
+}
+
 .navigation {
     width: 100%;
     display: flex;
@@ -55,6 +59,10 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     list-style-type: none;
+}
+
+.items:hover {
+    box-shadow: 0 2px 0 0 #ffffff;
 }
 
 @media (max-width: 375px) {
@@ -177,6 +185,7 @@ body {
 
 .corporis-suscipit-laboriosam {
     background: #FFFFFF;
+    display: flex;
 }
 
 .box-a {
@@ -206,6 +215,11 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
+}
+
+.cta-main:hover {
+    box-shadow: 0 0 3px 3px #DEF3FA;
+    background: #FBAAFA;
 }
 
 .paragraph-a {
@@ -275,7 +289,7 @@ body {
         padding: 17px 0 40px 0;
     }
     .box-a {
-        padding: 45px 0 90px 15px;
+        padding: 45px 0 65px 15px;
     }
     .paragraph-a {
         padding: 8px 15px 30px 0;
@@ -303,6 +317,7 @@ body {
 .group-b {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .box-span-title {
@@ -404,8 +419,17 @@ body {
     border: 0;
 }
 
+.cta-b:hover {
+    box-shadow: 2px 2px 5px 5px #DEF3FA;
+    background: #FBAAFA;
+}
+
 .image-bitmap-1 {
     width: 370px;
+}
+
+.image-bitmap-1:hover {
+    box-shadow: 0 2px 5px 5px #2C6A79;
 }
 
 @media (max-width: 375px) {
@@ -589,6 +613,11 @@ body {
     border: 0;
 }
 
+.cta-c:hover {
+    box-shadow: 0px 0px 5px 2px #DEF3FA;
+    background: #A4A4F4;
+}
+
 .paragraph-temporibus-quibusdam {
     font-weight: 600;
     font-size: 16px;
@@ -700,6 +729,11 @@ body {
     color: #333333;
 }
 
+.writer:hover {
+    box-shadow: 0 0 8px 0 #000000;
+    border-radius: 50%;
+}
+
 .opinion {
     font-size: 16px;
     line-height: 24px;
@@ -791,6 +825,11 @@ body {
     padding: 12px 55px;
     border: 0;
     margin-top: 30px;
+}
+
+.cta-1:hover {
+    box-shadow: 2px 2px 5px 5px #DEF3FA;
+    background: #FBAAFA;
 }
 
 .center {
@@ -918,6 +957,11 @@ body {
     padding: 12px 200px 12px 15px;
 }
 
+.input-footer:focus {
+    border-color: #5FCCFF;
+    box-shadow: 0 0 8px 0 #5FCCFF;
+}
+
 .cta-footer {
     background: #C86DD7;
     border-radius: 24px;
@@ -929,6 +973,11 @@ body {
     padding: 12px 65px;
     border: 0;
     margin: 0 0 0 30px;
+}
+
+.cta-footer:hover {
+    box-shadow: 2px 2px 5px 5px #DEF3FA;
+    background: #FBAAFA;
 }
 
 .cta-input {
